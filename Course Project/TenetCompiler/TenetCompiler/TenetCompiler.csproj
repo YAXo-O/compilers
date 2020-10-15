@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Antlr4.Runtime.Standard" Version="4.8.0" />
+      <PackageReference Include="Llvm.NET" Version="8.0.1" />
+      <PackageReference Include="Llvm.NET.Interop" Version="8.0.1" />
+    </ItemGroup>
+
+</Project>
